@@ -1,0 +1,91 @@
+*{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+
+
+.left{
+    width:22%;
+    height: 100vh;
+    background-color: rgb(35, 11, 95);
+    float:left;
+    padding: 10px;
+    box-sizing:border-box ;
+    color: aliceblue;
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+    justify-content: center;
+}
+.name{
+    font-size: 16px;
+
+}
+.bio{
+    text-align: center;
+}
+.connect-button{
+    padding:10px 20px;
+    border-radius: 30px;
+    border: none;
+   
+}
+.connect-button:hover {
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+  }
+.profile{
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+
+}
+.right{
+    width:78%;
+    height: 100vh;
+    background-color: rgb(0, 0, 0);
+    float:right;
+    overflow: auto;
+    
+}
+.nav-container{
+    display: flex;
+    background-color: aliceblue;
+    margin: 10px;
+    padding: 10px;
+    color: black;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 5px;
+
+}
+.nav-container h3{
+    margin: 0;
+}
+.nav a{
+    color:grey;
+    text-decoration: none;
+    margin: 10px 0px;
+
+}
+
+.nav a:hover{
+    color: black;
+    transition: ease-in-out 500ms;
+}
+.content{
+    margin: 30px 10px;
+    color: aliceblue;
+}
+@media only  screen and (max-width:500px) {
+    .left{
+        float:none;
+        width: 100px;
+    }
+    .right{
+        float:none;
+        width: 100px;
+        
+    }
+
+    
+}
