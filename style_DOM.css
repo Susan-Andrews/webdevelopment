@@ -1,8 +1,8 @@
 body {
-    background-image:url("bg.jpg");
+    background-image:url("card.jpg");
     background-size: 100%;
     font-family: sans-serif;
-    color: #444;
+    color: white;
     letter-spacing: 1px;
 }
 h1,h2 {
@@ -14,7 +14,7 @@ h1,h2 {
     max-width: 960px;
     margin:20px auto;
     border-radius: 6px;
-    box-shadow: 1px 10px 10px rgba(255, 255, 255, 0);
+    box-shadow: 1px 10px 10px rgba(0,0,0,0.7);
     box-sizing: border-box;
     padding: 0 0 20px;
     overflow:hidden;
@@ -22,7 +22,7 @@ h1,h2 {
 }
 
 #page-banner {
-    background-image: url("card.png");
+    background-image: url("bg.png");
     background-size: 100%;
     align-items: center;
     padding: 10px 0;
@@ -47,12 +47,12 @@ h1,h2 {
 
 #movie-list li {
     padding:20px;
-    border: left 5px solid rgb(14, 13, 13);
+    border: left 5px solid #ddd;
     margin: 20px 10px;
 }
 
 #movie-list li:hover {
-    border-color:#9361bf;
+    background-color:#6b686d;
 }
 .delete {
     float:right;
@@ -64,7 +64,7 @@ h1,h2 {
 }
 
 .delete-hover{
-    background:rgb(35, 34, 34);
+    background:white;
 
 }
 
@@ -80,6 +80,7 @@ h1,h2 {
     border:1px solid #ccc;
     font-size:16px;
     border-radius:4px 0 0 4px;
+    box-sizing:border-box;
     width:300px;
     float:left;
     clear:both;
